@@ -1,0 +1,103 @@
+{
+  "sellers": [
+    {
+      "id": 1,
+      "name": "Jackson",
+      "age": 22,
+      "phone": "0986868686"
+    },
+    {
+      "id": 2,
+      "name": "Jackson",
+      "age": 22,
+      "phone": "0986868686"
+    }
+  ],
+  "commodities": [
+    {
+      "id": 1,
+      "title": "糖果5包入",
+      "img": "https://picsum.photos/500/300",
+      "alt": "Card image cap",
+      "describe": "商品描述",
+      "suggestprice": "400",
+      "price": "300",
+      "confirm": true,
+      "userId": 1,
+      "number": "8"
+    },
+    {
+      "title": "限量火鍋組合",
+      "img": "https://picsum.photos/800/350",
+      "describe": "除夕圍爐最佳組合",
+      "suggestprice": "1399",
+      "price": "777",
+      "confirm": true,
+      "userId": 1,
+      "number": "5",
+      "id": 8
+    },
+    {
+      "title": "沙發",
+      "img": "https://picsum.photos/500/250",
+      "describe": "藍色沙發",
+      "suggestprice": "20000",
+      "price": "15000",
+      "confirm": true,
+      "userId": 5,
+      "number": "8",
+      "id": 9
+    },
+    {
+      "title": "烤箱",
+      "img": "https://picsum.photos/500/300",
+      "describe": "限量超值2999",
+      "suggestprice": "3500",
+      "price": "3200",
+      "confirm": true,
+      "userId": 1,
+      "number": "8",
+      "id": 10
+    },
+    {
+      "title": "冰箱",
+      "img": "https://picsum.photos/500/200",
+      "describe": "韋恩電冰箱",
+      "suggestprice": "12000",
+      "price": "10000",
+      "confirm": true,
+      "userId": 5,
+      "number": "7",
+      "id": 11
+    }
+  ],
+  "carts": [
+    {
+      "commodityId": 1,
+      "title": "糖果5包入",
+      "img": "https://picsum.photos/500/300",
+      "describe": "商品描述",
+      "price": "300",
+      "quantity": 2,
+      "userEmail": "tom@gmail.com",
+      "confirm": true,
+      "id": 1
+    },
+    {
+      "commodityId": 8,
+      "title": "限量火鍋組合",
+      "img": "https://picsum.photos/800/350",
+      "describe": "除夕圍爐最佳組合",
+      "price": "777",
+      "quantity": 1,
+      "userEmail": "tom@gmail.com",
+      "confirm": true,
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "Jackson",
+    "age": 22,
+    "phone": "0986868686"
+  }
+}

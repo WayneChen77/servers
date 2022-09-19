@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nickName": "wayne",
+      "email": "wayne@gmail.com",
+      "password": "123123123",
+      "current": "sells",
+      "type": 1
+    },
+    {
+      "id": 2,
+      "nickName": "waynae",
+      "email": "123@12a3",
+      "password": "123123123",
+      "current": "normal",
+      "type": 2
+    },
+    {
+      "id": 3,
+      "nickName": "4",
+      "email": "1414@bbf",
+      "password": "141414141",
+      "current": "sells",
+      "type": 0
+    },
+    {
+      "id": 4,
+      "nickName": "tom",
+      "email": "tom@gmail.com",
+      "password": "12345678",
+      "current": "normal",
+      "type": 0
+    }
+  ]
+}
