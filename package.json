@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "json-server-dev": "nodemon mock-api/server.js",
-    "json-server-prod": "node mock-api/server.js"
+    "json-server-dev": "nodemon servers/server.js",
+    "json-server-prod": "node servers/server.js"
   },
   "author": "",
   "license": "ISC",
