@@ -5,7 +5,9 @@ const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 
 // const router = jsonServer.router("mock-api/db.json");
-const middlewares = jsonServer.defaults();
+const middlewares = jsonServer.defaults({
+  static: "./build",
+});
 const jwt = require("jsonwebtoken");
 const port = process.env.PORT || 8000;
 const { verify, Verify } = require("crypto");
@@ -13,7 +15,11 @@ const { decode } = require("punycode");
 
 server.use(jsonServer.bodyParser);
 server.use(middlewares);
-server.use("/api", router);
+server.use(
+  jsonServer.rewriter({
+    "/api/*": "/$1",
+  })
+);
 server.listen(port);
 //取得auther資料
 const getAutherDb = () => {
